@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.headerTitle {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.headerContent {
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}

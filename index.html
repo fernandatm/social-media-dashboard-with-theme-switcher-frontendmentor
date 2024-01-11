@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/toggle.css">
+
+</head>
+
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="headerLeft">
+                <h1 class="headerTitle">Social Media Dashboard</h1>
+                <p class="headerContent">Total followers: 23,004</p>
+            </div>
+            <div class="headerRight">
+                <p>Dark Mode</p>
+                <label class="switch">
+                    <input type="checkbox" onclick="switchMode()">
+                    <span class="slider round" id="slider"></span>
+                </label>
+            </div>
+        </header>
+        <main>
+            <div class="socialMedia">
+                <article class="socialMediaCard facebook card">
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-facebook.svg" alt="Facebook Logo">
+                        <p>@nathanf</p>
+                    </div>
+                    <div class="socialMediaCard-stats">
+                        <h2>1987</h2>
+                        <p>Followers</p>
+                    </div>
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-up.svg" alt="Icon Up">
+                        <p class="iconUp">12 Today</p>
+                    </div>
+                </article>
+                <article class="socialMediaCard twitter card">
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-twitter.svg" alt="Twitter Logo">
+                        <p>@nathanf</p>
+                    </div>
+                    <div class="socialMediaCard-stats">
+                        <h2>1044</h2>
+                        <p>Followers</p>
+                    </div>
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-up.svg" alt="Icon Up">
+                        <p class="iconUp">99 Today</p>
+                    </div>
+                </article>
+                <article class="socialMediaCard instagram card">
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-instagram.svg" alt="Instagram Logo">
+                        <p>@realnathanf</p>
+                    </div>
+                    <div class="socialMediaCard-stats">
+                        <h2>11k</h2>
+                        <p>Followers</p>
+                    </div>
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-up.svg" alt="Icon Up">
+                        <p class="iconUp">1099 Today</p>
+                    </div>
+                </article>
+                <article class="socialMediaCard youtube card">
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-youtube.svg" alt="Youtube Logo">
+                        <p>Nathan F.</p>
+                    </div>
+                    <div class="socialMediaCard-stats">
+                        <h2>8239</h2>
+                        <p>Subscribers</p>
+                    </div>
+                    <div class="socialMediaCard-icons">
+                        <img src="images/icon-down.svg" alt="Icon Down">
+                        <p class="iconDown">144 Today</p>
+                    </div>
+                </article>
+            </div>
+            <div class="details">
+                <h1>Overview - Today</h1>
+                <div class="socialMediaOverview">
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Page Views</h3>
+                        <img class="socialMediaLogo" src="images/icon-facebook.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">87</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-up.svg" alt="Icon Up">
+                            <p class="iconUp">3%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Likes</h3>
+                        <img class="socialMediaLogo" src="images/icon-facebook.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">52</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-down.svg" alt="Icon Down">
+                            <p class="iconDown">2%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Likes</h3>
+                        <img class="socialMediaLogo" src="images/icon-instagram.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">5462</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-up.svg" alt="Icon Up">
+                            <p class="iconUp">2257%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Profile Views</h3>
+                        <img class="socialMediaLogo" src="images/icon-instagram.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">52k</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-up.svg" alt="Icon Up">
+                            <p class="iconUp">1375%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Retweets</h3>
+                        <img class="socialMediaLogo" src="images/icon-twitter.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">117</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-up.svg" alt="Icon Up">
+                            <p class="iconUp">303%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Likes</h3>
+                        <img class="socialMediaLogo" src="images/icon-twitter.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">507</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-up.svg" alt="Icon Up">
+                            <p class="iconUp">553%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Likes</h3>
+                        <img class="socialMediaLogo" src="images/icon-youtube.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">107</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-down.svg" alt="Icon Down">
+                            <p class="iconDown">19%</p>
+                        </div>
+                    </article>
+                    <article class="overviewDetails card">
+                        <h3 class="socialMediaTitle">Total Views</h3>
+                        <img class="socialMediaLogo" src="images/icon-youtube.svg" alt="Social Media Logo">
+                        <h4 class="socialMediaNumber">1407</h4>
+                        <div class="socialMediaStatus">
+                            <img src="images/icon-down.svg" alt="Icon Down">
+                            <p class="iconDown">12%</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        const body = document.getElementById('body');
+        const cards = document.getElementsByClassName('card');
+        function switchMode() {
+            body.classList.toggle('darkMode');
+            for (var i = 0; i <= cards.length; i++) {
+                cards[i].classList.toggle('darkCard');
+            }
+        }
+    </script>
+</body>
+
+</html>
